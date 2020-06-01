@@ -1,0 +1,108 @@
+.header {
+  background-color: #ff6502;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: white;
+  font-size: 12px;
+
+}
+
+.numbers {
+  padding: 0 8px;
+  width: 13%;
+  display: flex;
+  justify-content: center;
+}
+.titleContainer {
+    width: 50%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 4px 8px;
+}
+.upvote {
+  padding: 0 6px;
+  width: 8%;
+  display: flex;
+  justify-content: center;
+}
+.upvoted{
+    color:orangered;
+
+}
+.cursor{
+    cursor:pointer;
+}
+.url {
+    font-size: 10px;
+    color: #828282;
+    margin: 0 4px;
+  }
+.graphContainer{
+    display:flex;
+    justify-content:center;
+    border-top: 2px solid #ff6502;
+    border-bottom: 2px solid #ff6502;
+}
+.graph{
+    width:100%;
+}
+.author{
+    color:#777575;
+  }
+  .linkWrapper{
+    background: #f6f6ef;
+    padding: 12px 0;
+    display:flex;
+    justify-content: flex-end;
+    padding: 0 8px;
+  }
+.rowcontainer {
+    display: flex;
+    align-items: center;
+    background-color: #f6f6ef;
+  }
+  .rowcontainer:nth-child(even) {
+    background: #e8e8e8;
+  }
+  .hide {
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    color: #828282;
+  }
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .numbers {
+    width: 10%;
+  }
+  .upvote {
+    width: 9%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .mainContainer {
+    margin: 0 8%;
+  }
+  .numbers {
+    width: 8%;
+    font-size: 14px;
+    padding:0;
+  }
+  .upvote {
+    padding:0;
+    width: 4%;
+    font-size: 14px;
+  }
+  .header {
+    font-size: 14px;
+  }
+  .graph{
+    width:70%;
+}
+  
+  
+}
